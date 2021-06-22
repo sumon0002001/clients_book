@@ -1,6 +1,7 @@
 <h1>Editing Client</h1>
 
 <%= render 'form', client: @client %>
+<br />
 
-<%= link_to 'Show', @client %> |
-<%= link_to 'Back', clients_path %>
+<%= link_to 'Show', @client, class:"btn btn-success" %> |
+<%= link_to 'Back', clients_path, class:"btn btn-danger" %>
